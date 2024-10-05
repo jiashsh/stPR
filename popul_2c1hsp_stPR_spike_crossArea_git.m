@@ -13,7 +13,7 @@ smooth=1;
 hW=6;
 for state =1:2
 
-    load(['.\data\V1CA1M1_',awan{state},'_spontaneous.mat']);
+    load(['.\V1CA1M1_',awan{state},'_spontaneous.mat']);
     
     alldata=[];
     flag=0;
